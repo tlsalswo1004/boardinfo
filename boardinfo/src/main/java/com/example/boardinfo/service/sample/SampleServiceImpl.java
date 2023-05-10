@@ -12,6 +12,7 @@ public class SampleServiceImpl implements SampleService {
 	@Inject
 	SampleDAO sampleDao;
 	
+	@Override
 	public String sample(String test_message) {
 		return sampleDao.sample(test_message);
 	}

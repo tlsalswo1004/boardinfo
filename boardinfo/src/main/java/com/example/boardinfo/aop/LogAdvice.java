@@ -17,9 +17,9 @@ public class LogAdvice {
 	//@Before(핵심업무 전), @After(핵심업무 후),  @Around(핵심업무 전,후 모두 사용)
 	// ..은 모든 하위패키지를 의미, *(..)는 모든 메소드를 의미
 	//@시점("범위" or "범위" or "범위"...)
-	@Around("execution(* com.example.spring02.controller..*Controller.*(..))"
-			+ " or execution(* com.example.spring02.service..*Impl.*(..))"
-			+ " or execution(* com.example.spring02.model..dao.*Impl.*(..))")
+	@Around("execution(* com.example.boardinfo.controller..*Controller.*(..))"
+			+ " or execution(* com.example.boardinfo.service..*Impl.*(..))"
+			+ " or execution(* com.example.boardinfo.model..dao.*Impl.*(..))")
 	public Object logPrint(ProceedingJoinPoint joinPoint) throws Throwable {
 		//핵심업무가 실행되는 시점에 수행할 메소드
 		long start=System.currentTimeMillis();//시스템의 밀리세컨드값

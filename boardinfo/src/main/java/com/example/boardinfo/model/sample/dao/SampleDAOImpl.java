@@ -11,6 +11,7 @@ public class SampleDAOImpl implements SampleDAO {
 	@Inject
 	SqlSession sqlSession;
 	
+	@Override
 	public String sample(String test_message) {
 		
 		//return sqlSession.selectOne("sample.sampleTest", test_message);
