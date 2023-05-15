@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="boardinfo:war">
+    <output-path>$PROJECT_DIR$/boardinfo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>boardinfo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="boardinfo-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="boardinfo:war exploded" />
+    </root>
+  </artifact>
+</component>
