@@ -1,6 +1,6 @@
 package com.example.boardinfo.aop;
 
-import org.apache.catalina.tribes.util.Arrays;
+/*import org.apache.catalina.tribes.util.Arrays;*/
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -18,8 +18,8 @@ public class LogAdvice {
 	// ..은 모든 하위패키지를 의미, *(..)는 모든 메소드를 의미
 	//@시점("범위" or "범위" or "범위"...)
 	@Around("execution(* com.example.boardinfo.controller..*Controller.*(..))"
-			+ " or execution(* com.example.boardinfo.service..*Impl.*(..))"
-			+ " or execution(* com.example.boardinfo.model..dao.*Impl.*(..))")
+			+ " || execution(* com.example.boardinfo.service..*Impl.*(..))"
+			+ " || execution(* com.example.boardinfo.model..dao.*Impl.*(..))")
 	public Object logPrint(ProceedingJoinPoint joinPoint) throws Throwable {
 		//핵심업무가 실행되는 시점에 수행할 메소드
 		long start=System.currentTimeMillis();//시스템의 밀리세컨드값
@@ -36,7 +36,7 @@ public class LogAdvice {
 		//호출한 클래스, method 정보를 로거에 저장
 		logger.info(name+type+"."+joinPoint.getSignature().getName()+"()");
 		//메소드에 전달되는 매개변수들을 로거에 저장
-		logger.info(Arrays.toString(joinPoint.getArgs()));
+		/*logger.info(Arrays.toString(joinPoint.getArgs()));*/
 		long end=System.currentTimeMillis();
 		long time=end-start;
 		logger.info("실행시간 : " + time);
