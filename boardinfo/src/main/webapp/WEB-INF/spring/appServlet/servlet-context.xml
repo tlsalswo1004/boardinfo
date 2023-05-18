@@ -5,7 +5,9 @@
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:aop="http://www.springframework.org/schema/aop"
 	xmlns:tx="http://www.springframework.org/schema/tx"
-	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	xmlns:websocket="http://www.springframework.org/schema/websocket"
+	xsi:schemaLocation="http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
@@ -51,7 +53,13 @@
 	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 	
 	
+	<!-- 웹소켓 핸들러 등록 -->
+	<websocket:handlers>
+		<websocket:mapping handler="chatHandler" path="/chatting" />	
+		<websocket:sockjs websocket-enabled="true"/>
+	</websocket:handlers>
 	
+		<beans:bean id="chatHandler" class="com.example.boardinfo.controller.chat.ChatHandler"/>
 	
 	
 </beans:beans>
