@@ -1,5 +1,6 @@
 package com.example.boardinfo.aop;
 
+import com.example.boardinfo.controller.game.GameController;
 /*import org.apache.catalina.tribes.util.Arrays;*/
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Aspect //공통적인 업무를 지원하는 aop bean
 public class LogAdvice {
 	//로깅을 위한 변수
-	private static final Logger logger=LoggerFactory.getLogger(LogAdvice.class);
+	private static final Logger logger=LoggerFactory.getLogger(GameController.class);
 	
 	//@Before(핵심업무 전), @After(핵심업무 후),  @Around(핵심업무 전,후 모두 사용)
 	// ..은 모든 하위패키지를 의미, *(..)는 모든 메소드를 의미

@@ -6,6 +6,7 @@
 
 	<typeAliases>
 		<typeAlias type="com.example.boardinfo.model.game.dto.GameDTO" alias="gameDto"/>
+		<typeAlias type="com.example.boardinfo.model.review.dto.ReviewDTO" alias="reviewDto"/>
 	</typeAliases>
 
 </configuration>

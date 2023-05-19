@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="boardinfo:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +24,52 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a518761-99a7-41ce-9b3b-0ba88603f003" name="Default Changelist" comment="" />
+    <list default="true" id="6a518761-99a7-41ce-9b3b-0ba88603f003" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/controller/review/ReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/model/review/dao/ReviewDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/model/review/dao/ReviewDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/model/review/dto/ChoiceGameDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/model/review/dto/ReplyCommentsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/model/review/dto/ReviewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/service/review/ReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/service/review/ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/resources/mappers/reviewMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/review/reviewInTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/review/reviewMain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/review/reviewUse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/review/reviewlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/review/reviewlist_2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/boardinfo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/boardinfo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/boardinfo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/boardinfo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/aop/LogAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/src/main/java/com/example/boardinfo/aop/LogAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/src/test/java/com/example/boardinfo/REVIEW.SQL" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/src/test/java/com/example/boardinfo/REVIEW.SQL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/aop/LogAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/aop/LogAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/controller/game/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/controller/game/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/controller/sample/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/controller/sample/SampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/game/dao/GameDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/game/dao/GameDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/game/dao/GameDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/game/dao/GameDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/game/dto/GameDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/game/dto/GameDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/sample/dao/SampleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/sample/dao/SampleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/sample/dao/SampleDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/sample/dao/SampleDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/sample/dto/SampleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/model/sample/dto/SampleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/game/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/game/GameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/game/GameServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/game/GameServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/sample/SampleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/sample/SampleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/sample/SampleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/service/sample/SampleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/util/MediaUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/util/MediaUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/util/UploadFileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/com/example/boardinfo/util/UploadFileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardinfo/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boardinfo/target/classes/mybatis-config.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,18 +78,186 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="2PpFGSLK6buzl1pWNTa8EtQDSlq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boardinfo-master/boardinfo" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boardinfo/src/main/webapp/WEB-INF/views/review" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41034484" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.boardinfo.model.review.dto" />
+      <recent name="com.example.boardinfo.controller.review" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\taw\IdeaProjects\boardinfo\boardinfo\src\main\webapp\WEB-INF\views\review" />
+      <recent name="C:\Users\taw\IdeaProjects\boardinfo\boardinfo\src\main\resources\mappers" />
+      <recent name="C:\Users\taw\IdeaProjects\boardinfo\boardinfo\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\taw\IdeaProjects\boardinfo\boardinfo\src\main\java\com\example\boardinfo\service" />
+      <recent name="C:\Users\taw\IdeaProjects\boardinfo\boardinfo\src\main\java\com\example\boardinfo\model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 -Duser.language=en -Duser.region=us" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="boardinfo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_boardinfo_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57318" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="boardinfo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 -Duser.language=en -Duser.region=us" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="AJP_PORT" value="1099" />
+        <option name="BASE_DIRECTORY_NAME" value="_boardinfo" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57318" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\taw\AppData\Roaming\Subversion</configuration>
@@ -51,7 +269,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684146019717</updated>
-      <workItem from="1684146024489" duration="295000" />
+      <workItem from="1684146024489" duration="19920000" />
+      <workItem from="1684318271727" duration="11254000" />
+      <workItem from="1684389919606" duration="271000" />
+      <workItem from="1684390279076" duration="10890000" />
     </task>
     <task id="LOCAL-00001" summary="기본 셋팅">
       <created>1684146219538</created>
@@ -67,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684146279012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SQL문 작성 _ Git 제대로 올라가는지 Test">
+      <created>1684146488191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684146488191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,9 +311,182 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="기본 셋팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="기본 셋팅" />
+    <MESSAGE value="SQL문 작성 _ Git 제대로 올라가는지 Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL문 작성 _ Git 제대로 올라가는지 Test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="791" y="155" key="#Auto_Import" timestamp="1684220674144">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="791" y="155" key="#Auto_Import/0.0.2048.1240@0.0.2048.1240" timestamp="1684220674144" />
+    <state x="136" y="299" key="#Inspections" timestamp="1684313715987">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="136" y="299" key="#Inspections/0.0.2048.1240@0.0.2048.1240" timestamp="1684313715987" />
+    <state x="547" y="454" key="#Template_Data_Languages" timestamp="1684240471011">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="547" y="454" key="#Template_Data_Languages/0.0.2048.1240@0.0.2048.1240" timestamp="1684240471011" />
+    <state x="359" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1684458761815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="254" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1088.574@0.0.1088.574" timestamp="1684402184469" />
+    <state x="479" y="275" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1240@0.0.2048.1240" timestamp="1684324286652" />
+    <state x="359" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684458761815" />
+    <state x="830" y="304" key="#com.intellij.ide.util.MemberChooser" timestamp="1684325203577">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="830" y="304" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1240@0.0.2048.1240" timestamp="1684325203577" />
+    <state x="245" y="251" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1684313895250">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="245" y="251" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.2048.1240@0.0.2048.1240" timestamp="1684313895250" />
+    <state x="226" y="134" width="438" height="632" key="FileChooserDialogImpl" timestamp="1684390139494">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="301" y="375" key="FileChooserDialogImpl/0.0.2048.1240@0.0.2048.1240" timestamp="1684227218952" />
+    <state x="226" y="134" width="438" height="632" key="FileChooserDialogImpl/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684390139494" />
+    <state width="1736" height="346" key="GridCell.Tab.0.bottom" timestamp="1684478227458">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.0.bottom/0.0.1088.574@0.0.1088.574" timestamp="1684402185516" />
+    <state width="1736" height="346" key="GridCell.Tab.0.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1684478227458" />
+    <state width="680" height="212" key="GridCell.Tab.0.bottom/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275127" />
+    <state width="1736" height="346" key="GridCell.Tab.0.center" timestamp="1684478227458">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.0.center/0.0.1088.574@0.0.1088.574" timestamp="1684402185516" />
+    <state width="1736" height="346" key="GridCell.Tab.0.center/0.0.2048.1240@0.0.2048.1240" timestamp="1684478227458" />
+    <state width="680" height="212" key="GridCell.Tab.0.center/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275126" />
+    <state width="1736" height="346" key="GridCell.Tab.0.left" timestamp="1684478227458">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.0.left/0.0.1088.574@0.0.1088.574" timestamp="1684402185516" />
+    <state width="1736" height="346" key="GridCell.Tab.0.left/0.0.2048.1240@0.0.2048.1240" timestamp="1684478227458" />
+    <state width="680" height="212" key="GridCell.Tab.0.left/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275126" />
+    <state width="1736" height="346" key="GridCell.Tab.0.right" timestamp="1684478227458">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.0.right/0.0.1088.574@0.0.1088.574" timestamp="1684402185516" />
+    <state width="1736" height="346" key="GridCell.Tab.0.right/0.0.2048.1240@0.0.2048.1240" timestamp="1684478227458" />
+    <state width="680" height="212" key="GridCell.Tab.0.right/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275126" />
+    <state width="1736" height="346" key="GridCell.Tab.1.bottom" timestamp="1684478200782">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.1.bottom/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.1.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200782" />
+    <state width="680" height="212" key="GridCell.Tab.1.bottom/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275127" />
+    <state width="1736" height="346" key="GridCell.Tab.1.center" timestamp="1684478200782">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.1.center/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.1.center/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200782" />
+    <state width="680" height="212" key="GridCell.Tab.1.center/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275127" />
+    <state width="1736" height="346" key="GridCell.Tab.1.left" timestamp="1684478200782">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.1.left/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.1.left/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200782" />
+    <state width="680" height="212" key="GridCell.Tab.1.left/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275127" />
+    <state width="1736" height="346" key="GridCell.Tab.1.right" timestamp="1684478200782">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.1.right/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.1.right/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200782" />
+    <state width="680" height="212" key="GridCell.Tab.1.right/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275127" />
+    <state width="1736" height="346" key="GridCell.Tab.2.bottom" timestamp="1684478200783">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.2.bottom/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.2.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200783" />
+    <state width="680" height="212" key="GridCell.Tab.2.bottom/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state width="1736" height="346" key="GridCell.Tab.2.center" timestamp="1684478200782">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.2.center/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.2.center/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200782" />
+    <state width="680" height="212" key="GridCell.Tab.2.center/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state width="1736" height="346" key="GridCell.Tab.2.left" timestamp="1684478200782">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.2.left/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.2.left/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200782" />
+    <state width="680" height="212" key="GridCell.Tab.2.left/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state width="1736" height="346" key="GridCell.Tab.2.right" timestamp="1684478200783">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.2.right/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.2.right/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200783" />
+    <state width="680" height="212" key="GridCell.Tab.2.right/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state width="1736" height="346" key="GridCell.Tab.3.bottom" timestamp="1684478200783">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.3.bottom/0.0.1088.574@0.0.1088.574" timestamp="1684402185518" />
+    <state width="1736" height="346" key="GridCell.Tab.3.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200783" />
+    <state width="680" height="212" key="GridCell.Tab.3.bottom/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state width="1736" height="346" key="GridCell.Tab.3.center" timestamp="1684478200783">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.3.center/0.0.1088.574@0.0.1088.574" timestamp="1684402185518" />
+    <state width="1736" height="346" key="GridCell.Tab.3.center/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200783" />
+    <state width="680" height="212" key="GridCell.Tab.3.center/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state width="1736" height="346" key="GridCell.Tab.3.left" timestamp="1684478200783">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.3.left/0.0.1088.574@0.0.1088.574" timestamp="1684402185517" />
+    <state width="1736" height="346" key="GridCell.Tab.3.left/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200783" />
+    <state width="680" height="212" key="GridCell.Tab.3.left/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state width="1736" height="346" key="GridCell.Tab.3.right" timestamp="1684478200783">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="892" height="200" key="GridCell.Tab.3.right/0.0.1088.574@0.0.1088.574" timestamp="1684402185518" />
+    <state width="1736" height="346" key="GridCell.Tab.3.right/0.0.2048.1240@0.0.2048.1240" timestamp="1684478200783" />
+    <state width="680" height="212" key="GridCell.Tab.3.right/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684459275128" />
+    <state x="555" y="275" key="Maven.ArtifactSearchDialog" timestamp="1684323568362">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="555" y="275" key="Maven.ArtifactSearchDialog/0.0.2048.1240@0.0.2048.1240" timestamp="1684323568362" />
+    <state x="0" y="195" width="981" height="810" key="SettingsEditor" timestamp="1684477326482">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="0" y="195" key="SettingsEditor/0.0.2048.1240@0.0.2048.1240" timestamp="1684477326482" />
+    <state x="4" y="13" width="981" height="810" key="SettingsEditor/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684392932752" />
+    <state x="617" y="353" key="Vcs.Push.Dialog.v2" timestamp="1684146491545">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="617" y="353" key="Vcs.Push.Dialog.v2/0.0.2048.1240@0.0.2048.1240" timestamp="1684146491545" />
+    <state x="366" y="0" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1684402214589">
+      <screen x="0" y="0" width="1088" height="574" />
+    </state>
+    <state x="366" y="0" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1088.574@0.0.1088.574" timestamp="1684402214589" />
+    <state x="176" y="233" width="415" height="363" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1684458089858">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="176" y="233" width="415" height="363" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684458089858" />
+    <state x="297" y="146" width="744" height="566" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1684458248841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="297" y="146" width="744" height="566" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684458248841" />
+    <state x="93" y="93" width="1862" height="1054" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1684323412400">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="93" y="93" width="1862" height="1054" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1240@0.0.2048.1240" timestamp="1684323412400" />
+    <state x="122" y="157" width="637" height="644" key="find.popup" timestamp="1684392700479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="162" y="236" width="848" height="969" key="find.popup/0.0.2048.1240@0.0.2048.1240" timestamp="1684323184360" />
+    <state x="122" y="157" width="637" height="644" key="find.popup/1920.0.2048.1240/0.0.1536.824@0.0.1536.824" timestamp="1684392700479" />
+    <state x="441" y="465" key="refactoring.ChangeSignatureDialog" timestamp="1684321738677">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="441" y="465" key="refactoring.ChangeSignatureDialog/0.0.2048.1240@0.0.2048.1240" timestamp="1684321738677" />
+    <state x="175" y="274" width="672" height="678" key="search.everywhere.popup" timestamp="1684323585608">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="175" y="274" width="672" height="678" key="search.everywhere.popup/0.0.2048.1240@0.0.2048.1240" timestamp="1684323585608" />
   </component>
 </project>
