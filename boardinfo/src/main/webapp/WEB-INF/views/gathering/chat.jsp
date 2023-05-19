@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
     
 <!DOCTYPE html>
 <html>
@@ -28,7 +29,7 @@ $(function(){
 });
 
 
-var sock = new SockJS('http://localhost:80/chatting');
+var sock = new SockJS('http://localhost:80/boardinfo/chatting');
 sock.onmessage = onMessage;
 sock.onclose = onClose;
 sock.onopen = onOpen;
@@ -49,6 +50,7 @@ function onMessage(msg){
 	
 	//데이터를 :를 기준으로 쪼갠다
 	var arr = data.split(":");
+	//지금은 1234, message로 분리되어 있음.
 	
 	
 	for(var i=0; i<arr.length; i++){
@@ -86,7 +88,8 @@ function onMessage(msg){
 function onClose(evt){
 	
 	alert('종료');
-	var user = '${pr.username}'; //나간사람 이름
+	var user = "${user_id}";
+	//var user = '${pr.username}'; //나간사람 이름
 	var str = user + "님이 퇴장하셨습니다.";
 	$("#msgArea").append(str);		
 }
@@ -94,7 +97,8 @@ function onClose(evt){
 
 //채팅방에 들어왔을 때
 function onOpen(evt){
-	var user = '${pr.username}';
+	var user = "${user_id}";
+	//var user = '${pr.username}';
 	var str = user + "님이 입장하셨습니다.";
 	$("#msgArea").append(str);
 }

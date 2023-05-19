@@ -56,6 +56,9 @@
 	<!-- 웹소켓 핸들러 등록 -->
 	<websocket:handlers>
 		<websocket:mapping handler="chatHandler" path="/chatting" />	
+	    <websocket:handshake-interceptors>
+	   <beans:bean class="org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor"/>
+	    </websocket:handshake-interceptors>		
 		<websocket:sockjs websocket-enabled="true"/>
 	</websocket:handlers>
 	

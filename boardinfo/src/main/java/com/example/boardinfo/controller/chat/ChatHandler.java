@@ -3,6 +3,7 @@ package com.example.boardinfo.controller.chat;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.web.socket.CloseStatus;
@@ -17,14 +18,21 @@ public class ChatHandler extends TextWebSocketHandler {
 			LoggerFactory.getLogger(ChatController.class);
 
 	private List<WebSocketSession> sessionList = new ArrayList<WebSocketSession>();
-
-
+	
 	@Override
 	public void afterConnectionEstablished(WebSocketSession session) throws Exception {
 		System.out.println("여기로 오긴 왔니? connection");
 		logger.info("#ChatHandler, afterConnectionEstablished");
 		sessionList.add(session); 
-		logger.info("1234님이 입장하셨습니다.");
+
+		Map<String, Object> map = session.getAttributes();
+		String user_id = (String)map.get("user_id");
+		logger.info(user_id + "님이 입장하셨습니다.");
+		
+		for(WebSocketSession s : sessionList) {
+			s.sendMessage(new TextMessage("알림: " + user_id + "님이 입장하셨습니다."));
+		}
+		
 	}
 
 	
@@ -32,11 +40,15 @@ public class ChatHandler extends TextWebSocketHandler {
 	protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
 		System.out.println("여기로 오긴 왔니? handleText");
 		logger.info("#ChattingHandler, handleMessage");
-		logger.info("1234: " + message);
 		
+		Map<String, Object> map = session.getAttributes();
+		String user_id = (String)map.get("user_id");
 		
+		logger.info(user_id + ": " + message);
+
+
 		for(WebSocketSession s : sessionList) {
-			s.sendMessage(new TextMessage("1234: " + message.getPayload()));
+			s.sendMessage(new TextMessage(user_id + ": " + message.getPayload()));
 		}
 		
 	}
@@ -47,7 +59,13 @@ public class ChatHandler extends TextWebSocketHandler {
 		System.out.println("연결끊김");
 		logger.info("#ChattingHandler, afterConnectionClosed");
 		sessionList.remove(session); 
-		logger.info(session.getPrincipal().getName() + "님이 퇴장하셨습니다.");
+		
+		Map<String, Object> map = session.getAttributes();
+		String user_id = (String)map.get("user_id");
+
+		for(WebSocketSession s : sessionList) {
+			s.sendMessage(new TextMessage("알림: " + user_id + "님이 퇴장하셨습니다."));
+		}
 		
 	}
 
