@@ -16,6 +16,7 @@
 	<div align="center">
 		<h1><a href="${path}/sample/sample.do" style="color: black;">SAMPLE CLICK</a></h1>
 		<h1><a href="${path}/game/gamelist.do" style="color: black;">gamelist</a></h1>
+		<h1><a href="${path}/chat/goChat.do" style="color: black;">sjTest</a></h1>
 	</div>
         
     </body>
